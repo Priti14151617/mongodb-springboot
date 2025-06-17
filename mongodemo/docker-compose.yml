@@ -9,6 +9,7 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=priti
       - MONGO_INITDB_ROOT_PASSWORD=pass
+
   mongo-express:
     image: mongo-express
     container_name: mongo_express
