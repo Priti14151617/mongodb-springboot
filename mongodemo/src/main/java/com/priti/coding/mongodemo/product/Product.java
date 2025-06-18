@@ -3,6 +3,7 @@ package com.priti.coding.mongodemo.product;
 import java.math.BigDecimal;
 import java.util.List;
 
+import com.priti.coding.mongodemo.category.Category;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -23,10 +24,10 @@ public class Product {
    /* private BigDecimal price;
     private double quantity;
     private double rating;
+*/
+    private List<String> tags;
 
-    private List<String> tags;*/
 
-//    @DBRef
-//    private Category category;
+    private Category category;
 
 }
