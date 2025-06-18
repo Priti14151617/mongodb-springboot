@@ -27,7 +27,7 @@ public class Product {
 */
     private List<String> tags;
 
-
+    @DBRef
     private Category category;
 
 }
